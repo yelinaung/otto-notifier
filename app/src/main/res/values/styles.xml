@@ -1,0 +1,21 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+
+    <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+    <item name="android:windowContentOverlay">@null</item>
+  </style>
+
+  <style name="AppTheme.ActionBar" parent="android:Widget.Holo.ActionBar">
+    <item name="android:background">@color/primary</item>
+    <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+  </style>
+
+  <style name="AppTheme.ActionBar.TitleText"
+      parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+
+</resources>
